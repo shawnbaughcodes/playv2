@@ -10,6 +10,11 @@
             "StackName": "amplify-playv2-dev-180559",
             "StackId": "arn:aws:cloudformation:us-east-2:479971721613:stack/amplify-playv2-dev-180559/da57def0-76c8-11ea-96eb-0672668ff2ce",
             "AmplifyAppId": "d19dw39o77te0m"
+        },
+        "categories": {
+            "auth": {
+                "cognitoa58c7fe4": {}
+            }
         }
     }
 }
