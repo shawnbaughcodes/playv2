@@ -17,6 +17,7 @@ import awsconfig from './aws-exports';
 import { withAuthenticator } from 'aws-amplify-react-native';
 import Home from './src/screens/Home';
 import Sport from './src/screens/Sport';
+import Login from './src/screens/Login';
 
 const Drawer = createDrawerNavigator();
 Amplify.configure(awsconfig);
@@ -24,6 +25,7 @@ Amplify.configure(awsconfig);
 const App = () => (
   <NavigationContainer>
     <Drawer.Navigator initialRouteName="Home">
+      <Drawer.Screen name="Login" component={Login} />
       <Drawer.Screen name="Home" component={Home} />
       <Drawer.Screen name="Sport" component={Sport} />
     </Drawer.Navigator>
